@@ -19,20 +19,20 @@ cd server/src/
 make
 ```
 el artefacto generado se encontrara en server/src/
-###Generacion del cliente SPCP
+### Generacion del cliente SPCP
 ```
 cd client/src/
 make
 ```
 el artefacto generado se encontrara en client/src/
-###Generacion del stripmime
+### Generacion del stripmime
 ```
 cd stripmime/
 make
 ```
 el artefacto generado se encontrara en stripmime/
-##Ejecucion de los artefactos y sus opciones.
-###El proxy
+## Ejecucion de los artefactos y sus opciones.
+### El proxy
 para ejecutar el proxy se debe correr como
 ```
 ./proxyPop [POSIX STYLE OPTIONS] <origin-server>
@@ -62,7 +62,7 @@ para ejecutar el proxy se debe correr como
 -v                        imprime la versión del proxy
 
 recordar que el artefacto se encuentra en server/src/
-###El cliente
+### Cliente
 para ejecutar el cliente se debe correr como 
 ```
 ./spcpClient [POSIX STYLE OPTIONS] 
@@ -74,7 +74,7 @@ por defecto asume servidor SPCP en 127.0.0.1:9090. Las opciones posix son:
 -o management-port        el puerto en donde se encuentra escuchando el servidor SPCP
 
 recordar que el artefacto se encuentra en client/src/
-###EL stripmime 
+### Stripmime 
 para ejecutar el stripmime se corre como
 ```
 ./stripmime <optional-input-file>
