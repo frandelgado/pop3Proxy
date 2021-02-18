@@ -4,7 +4,7 @@
 informe.pdf 
 ### documentos de soporte para la presentacion
 presentacion.pdf
-###codigos fuente
+### codigos fuente
 #### server proxy pop3 y SPCP
 server/src/
 #### Cliente SPCP
